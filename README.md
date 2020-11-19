@@ -13,6 +13,10 @@
 - Ruby
 - Bundler gem
 
+## Loom Demo
+
+https://www.loom.com/share/461a5ee1ec2c4a47aaaed690e039dd8b
+
 
 ## Getting Started
 
