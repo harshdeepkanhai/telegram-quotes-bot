@@ -8,6 +8,6 @@ class Messages
     Do you need a motivation? type or click /quote
     Do you need a funny joke? type or click /fun
     Click or type /stop to end"
-    @invalid_command = "Sorry I don\'t understand yoy please type or click /start"
+    @invalid_command = "Sorry I don\'t understand you please type or click /start"
   end
 end
