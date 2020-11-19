@@ -8,7 +8,7 @@ title = Artii::Base.new
 
 puts title.asciify('Mega Bot').colorize(:red)
 
-puts "Welcome please open your telegram account and search for mega_auto_bot".colorize(:green)
+puts 'Welcome please open your telegram account and search for mega_auto_bot'.colorize(:green)
 sleep(0.5)
 puts '....'.colorize(:green)
 puts '.................'.colorize(:green)

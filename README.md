@@ -2,40 +2,43 @@
 
 # Telegram Bot
 
-> One paragraph statement about the project.
+> A telegram bot that gets you quotes and jokes
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/bot_server.png)
 
-Additional description about the project and its features.
+![screenshot](./images/tele_bot_client.png)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
+- Ruby
+- Bundler gem
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- Ruby 
+- Bundler gem installed
+
 ### Setup
+
+- clone the repo
 
 ### Install
 
+- run `bundle install` in root directory
+
 ### Usage
 
+- run `./bin/main.rb` in your shell from the root directory to start the bot
+- check telegram and find bot by searching `@mega_auto_bot`
+
 ### Run tests
+
+- run `rspec` in root directory to run tests
 
 ### Deployment
 

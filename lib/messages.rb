@@ -1,5 +1,6 @@
 class Messages
   attr_reader :greeting, :invalid_command
+
   def initialize(username)
     @greeting = "Welcome to Mega Bot #{username}
     type /start  to start
