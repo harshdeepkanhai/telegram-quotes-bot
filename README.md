@@ -38,8 +38,18 @@ To get a local copy up and running follow these simple example steps.
 
 ### Usage
 
+
+To start using the bot, you'll need to create a file named .env in the root folder and paste the following inside (with your telegram bot token)
+
+`TELEGRAM_API_TOKEN=<your token>`
+
+you can get the token using these steps:
+[Telegram Token](https://www.siteguarding.com/en/how-to-get-telegram-bot-api-token)
+
+Once you have done that you can run it by typing
 - run `./bin/main.rb` in your shell from the root directory to start the bot
 - check telegram and find bot by searching `@mega_auto_bot`
+
 
 ### Run tests
 
