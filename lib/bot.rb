@@ -1,4 +1,5 @@
 require 'telegram/bot'
+require 'dotenv/load'
 require_relative './messages'
 require_relative './quote'
 require_relative './fun'
@@ -7,7 +8,7 @@ class Bot
   attr_reader :token, :quote, :messages
 
   def initialize
-    @token = '1423220551:AAFKR--n2ETu6LW_pEEtRJzNeBae_4JMswo'
+    @token = ENV['TELEGRAM_API_TOKEN']
     @quote = Quote.new
     @fun = Fun.new
   end
