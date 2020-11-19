@@ -2,7 +2,7 @@
 
 # Telegram Bot
 
-> A telegram bot that gets you quotes and jokes
+> A telegram bot that gets you quotes and jokes. The bot is built in Ruby and by using telegram bot gem and quotes are fetched from the zenquotes API and jokes from a predefined list.
 
 ![screenshot](./images/bot_server.png)
 
@@ -29,10 +29,11 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-- clone the repo
+- clone this repo from github
 
 ### Install
 
+- cd into the root directory
 - run `bundle install` in root directory
 
 ### Usage
@@ -44,17 +45,19 @@ To get a local copy up and running follow these simple example steps.
 
 - run `rspec` in root directory to run tests
 
-### Deployment
+### Telegram Account creation
+You can see this blog to install telegram in iPhone or android
 
+[How to create a telegram account](https://www.indiatoday.in/information/story/how-to-create-telegram-account-1617921-2019-11-11)
 
 
 ## Author
 
-👤 **K**
+👤 **Harshdeep Kanhai**
 
 - GitHub: [@harshdeepkanhai](https://github.com/harshdeepkanhai)
 - Twitter: [@harshdeepkanhai](https://twitter.com/harshdeepkanhai)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/harshdeepkanhai)
+- LinkedIn: [harshdeepkanhai](https://linkedin.com/in/harshdeepkanhai)
 
 ## 🤝 Contributing
 
@@ -70,6 +73,7 @@ Give a ⭐️ if you like this project!
 
 - Ruby Gem Telegram Bot
 - zenquotes API
+- Microverse
 
 ## 📝 License
 
