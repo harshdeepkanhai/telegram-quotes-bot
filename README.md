@@ -1,59 +1,73 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Telegram Bot
 
-> One paragraph statement about the project.
+> A telegram bot that gets you quotes and jokes. The bot is built in Ruby and by using telegram bot gem and quotes are fetched from the zenquotes API and jokes from a predefined list.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/bot_server.png)
 
-Additional description about the project and its features.
+![screenshot](./images/tele_bot_client.png)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Ruby
+- Bundler gem
 
-## Live Demo
+## Loom Demo
 
-[Live Demo Link](https://livedemo.com)
+https://www.loom.com/share/461a5ee1ec2c4a47aaaed690e039dd8b
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- Ruby 
+- Bundler gem installed
+
 ### Setup
+
+- clone this repo from github
 
 ### Install
 
+- cd into the root directory
+- run `bundle install` in root directory
+
 ### Usage
+
+
+To start using the bot, you'll need to create a file named .env in the root folder and paste the following inside (with your telegram bot token)
+
+`TELEGRAM_API_TOKEN=<your token>`
+
+you can get the token using these steps:
+[Telegram Token](https://www.siteguarding.com/en/how-to-get-telegram-bot-api-token)
+
+Once you have done that you can run it by typing
+- run `./bin/main.rb` in your shell from the root directory to start the bot
+- check telegram and find bot by searching `@mega_auto_bot`
+
 
 ### Run tests
 
-### Deployment
+- run `rspec` in root directory to run tests
+
+### Telegram Account creation
+You can see this blog to install telegram in iPhone or android
+
+[How to create a telegram account](https://www.indiatoday.in/information/story/how-to-create-telegram-account-1617921-2019-11-11)
 
 
+## Author
 
-## Authors
+👤 **Harshdeep Kanhai**
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@harshdeepkanhai](https://github.com/harshdeepkanhai)
+- Twitter: [@harshdeepkanhai](https://twitter.com/harshdeepkanhai)
+- LinkedIn: [harshdeepkanhai](https://linkedin.com/in/harshdeepkanhai)
 
 ## 🤝 Contributing
 
@@ -67,9 +81,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Ruby Gem Telegram Bot
+- zenquotes API
+- Microverse
 
 ## 📝 License
 
