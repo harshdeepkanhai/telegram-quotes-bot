@@ -5,8 +5,6 @@ require_relative './quote'
 require_relative './fun'
 
 class Bot
-  attr_reader :token, :quote, :messages
-
   def initialize
     @token = ENV['TELEGRAM_API_TOKEN']
     @quote = Quote.new

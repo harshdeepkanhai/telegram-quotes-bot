@@ -6,5 +6,8 @@ describe Quote do
     it 'returns an array' do
       expect(quote.return_quote).to be_a(Array)
     end
+    it 'does not returns a String' do
+      expect(quote.return_quote).to_not be_a(String)
+    end
   end
 end
